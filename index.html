@@ -15,8 +15,8 @@
         <div class="Mainprompt">
             <img class="image" src="images/cute.gif"></img>
             <div class="text">
-              <h1 class="hh" id="name">Привіт, бодіксон!</h1>
-              <p class="pp" id="question">Ти будеш моєю Валентинкою? </p>
+              <h1 class="hh" id="name">Привіт!</h1>
+              <p class="pp" id="question">Я права? </p>
             </div>
             <div class="buttons">
                 <button class="button no" id="no-button" onclick="showMessage('No')">Ні</button>
@@ -61,7 +61,7 @@
     document.getElementById("no-button").remove();
 
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Ти ж моя бусінка!!!Люблю тебе!! 😘";
+    yesMessage.textContent = "Я теж так думаю 😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/kiss.gif";
